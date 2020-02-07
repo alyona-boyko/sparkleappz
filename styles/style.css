@@ -38,3 +38,8 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+.carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inne .carousel-item-prev{display:flex}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(25%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
